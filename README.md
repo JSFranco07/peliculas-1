@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Modificación
 
-Este readme ha sido modificado por js
+Este readme ha sido modificado por js dos veces

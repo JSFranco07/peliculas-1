@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:peliculas/src/search/search_delegate.dart';
-
-import 'package:peliculas/src/widgets/card_swiper_widget.dart';
 import 'package:peliculas/src/providers/peliculas_provider.dart';
+import 'package:peliculas/src/search/search_delegate.dart';
+import 'package:peliculas/src/widgets/card_swiper_widget.dart';
 import 'package:peliculas/src/widgets/movie_horizontal.dart';
 
 class HomePage extends StatelessWidget {
@@ -14,7 +13,7 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Películas en cine'),
+        title: Text('Películas en cartelera'),
         backgroundColor: Colors.indigoAccent,
         actions: <Widget>[
           IconButton(
